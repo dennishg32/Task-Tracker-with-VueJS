@@ -2,7 +2,7 @@
   <header>
     <h1>{{ title }}</h1>
     <Button
-      @toggleform="$emit('toggleform')"
+      @btn-click="$emit('toggleform')"
       :text="showFormTask ? 'Close' : 'Add Task'"
       :color="showFormTask ? 'red' : 'green'"
     />
